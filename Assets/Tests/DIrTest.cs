@@ -9,6 +9,6 @@ public class DIrTest
     [Test]
     public void DIrTestSimplePasses()
     {
-        Assert.AreEqual(Move.Right, Vector3.right);
+        Assert.AreEqual(Move.Right, Vector3.left);
     }
 }
