@@ -60,47 +60,11 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
-## ---------------- ##
-##   WWise stuff    ##
-## ---------------- ##
-
-# project stuff
-Planeta_Sound_WwiseProj/GeneratedSoundBanks/Windows/
-Planeta_Sound_WwiseProj/.cache/
-Planeta_Sound_WwiseProj/*.prof
-Planeta_Sound_WwiseProj/*_WwiseProject.*.validationcache
-Planeta_Sound_WwiseProj/*_WwiseProject.*.wsettings
-Planeta_Sound_WwiseProj/**/*.akd
-
-# build stuff (unsure?)
-# Assets/Wwise/Deployment/Plugins/Windows/**/*.meta
-
-# WWise Picker (editor)
-# from https://www.audiokinetic.com/library/edge/?source=Unity&id=unity__troubleshooting.html
-# >> Do not keep AkWwiseProjectData.asset under version control! 
-# >> This is a temporary cache file for the Wwise project data, 
-# >> so as to avoid having the Wwise Picker continuously parse the Work Unit files.
-Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset*
-
-# notes:
-# 1) if any other files go in Assets/Wwise/Editor/ProjectData/ besides AkWwiseProjectData.asset*,
-#    then don't ignore Assets/Wwise/Editor/ProjectData.meta. If AkWwiseProjectData.asset is the only item in there,
-#    then, it's OK to ignore this file.
-# 
-# Assets/Wwise/Editor/ProjectData.meta
-
-## --------------- ##
-## End WWise Stuff ##
-## --------------- ##
-
-# temp install files
-WwiseUnityIntegration_*_Src.zip
-
 # Mac stuff
 .DS_store
 
 # Jetbrains Rider IDE (C# IDE), adds a plugin to Unity
-# Assets/Plugins/Editor.meta
-# Assets/Plugins/Editor/Jetbrains.meta
-# Assets/Plugins/Editor/Jetbrains/
-# .idea
+Assets/Plugins/Editor.meta
+Assets/Plugins/Editor/Jetbrains.meta
+Assets/Plugins/Editor/Jetbrains/
+.idea
